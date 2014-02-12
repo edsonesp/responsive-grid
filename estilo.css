@@ -1,0 +1,134 @@
+* {
+	padding:0;
+	margin:0;
+	font-family:arial, helvetica, sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  *zoom: 1;
+}
+
+.box-sizing {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width:100%;
+	margin:0 auto;
+	padding:20px;
+}
+
+.wrapper .row {
+	margin-top:15px;
+}
+
+.wrapper .row:first-child {
+	margin-top:0;
+}
+
+.wrapper .col {
+	background:#eee;
+	float:left;
+	margin-left:2%;
+	padding:10px;
+}
+
+.wrapper .col:first-child {
+	margin-left:0;
+}
+
+/*
+.wrapper .col.span12 {
+	width:6.5%;
+}
+
+.wrapper .col.span11 {
+	width: 7.27%; 
+}
+
+.wrapper .col.span10 {
+	width: 8.2%;  
+}
+
+.wrapper .col.span9 {
+	width: 9.33%;  
+}
+
+.wrapper .col.span8 {
+	width: 10.75%;  
+}
+
+.wrapper .col.span7 {
+	width: 12.57%;  
+}
+
+.wrapper .col.span6 {
+	width: 15%;  
+}
+
+.wrapper .col.span5 {
+	width: 18.4%;  
+}
+
+.wrapper .col.span4 {
+	width: 23.5%;  
+}
+
+.wrapper .col.span3 {
+	width: 32%;  
+}
+
+.wrapper .col.span2 {
+	width: 49%;  
+}
+
+.wrapper .col.span1 {
+	width: 100%;  
+}
+*/
+
+.wrapper .col.span6 {
+	width: 100%;  
+}
+
+.wrapper .col.span5 {
+	width: 83%;  
+}
+
+.wrapper .col.span4 {
+	width: 66%;  
+}
+
+.wrapper .col.span3 {
+	width: 49%;  
+}
+
+.wrapper .col.span2 {
+	width: 32%;  
+}
+
+.wrapper .col.span1 {
+	width: 15%;  
+}
+
+@media screen and (max-width: 640px) {
+  .col {
+    width: 100% !important;
+    margin:0 0 15px 0 !important;
+  }
+  .row {
+  	margin:0 !important;
+  } 
+}
